@@ -37,7 +37,7 @@ body {
 </head>
 <body>
 <div class="topnav">
-  <a class="active">Use Service</a>
+  <a class="active" href="useserviceform.jsp">Use Service</a>
   <a href="">View History</a>
   <a href="">Profile</a>
 </div>

@@ -6,7 +6,7 @@
         String password = request.getParameter("password");
         String mobile = request.getParameter("mobile"); 
         String vehicle= request.getParameter("vehicle");
-        Class.forName("com.mysql.jdbc.Driver");  // MySQL database connection
+        Class.forName("com.mysql.jdbc.Driver");  
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gps","root","harshita");    
         PreparedStatement pst = conn.prepareStatement("insert into login1 values (? ,? ,? ,?,?)");
         pst.setString(1, name);
